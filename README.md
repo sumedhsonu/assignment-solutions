@@ -20,3 +20,21 @@ steps done for nlp:
   d) XG Boost Classifier 
  9) model evaluation metric is accuracy i.e  XG Boost Classifier was highest with 75%
  10) applied the model on test data after preprocessing and saved as csv file
+ 
+ 
+steps thinking to approach computer vision:
+1) reading data Csv file 
+2)writing loop for for csv labels to read images
+3)preprocessing images
+  a)rotating images
+  b)shear range 
+  c)zoom range
+  d)scaling
+ 4)then building algorithm 
+ 5)try ingdifferent number of layers of convolution and maxpooling 
+ 6) adding dense layers 
+ 7)if overfitting occurs then adding dropout layer
+ 8)final output layer 
+ 9)testing the model if accuracy doesnt increase gradually then use different architecture such as vgg19, vgg16, resnet etc.
+ 10)then again testing and finalising the model 
+ 
